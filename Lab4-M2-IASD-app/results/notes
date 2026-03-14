@@ -1,0 +1,64 @@
+
+resnet_test1.png
+
+Model	ResNet
+Learning rate	5e-04
+Epochs	20
+Batch size	32
+Dropout	0.5
+Image size	224×224
+ score:  0.956809
+
+---
+resnet_test2.png
+
+Model	ResNet
+Learning rate	1e-03
+Epochs	20
+Batch size	32
+Dropout	0.4
+Image size	224×224
+ score: 0.973403
+
+---
+resnet_test3.png
+
+Model	ResNet
+Learning rate	1e-03
+Epochs	25
+Batch size	32
+Dropout	0.4
+Image size	224×224
+Best score: 0.974555
+
+---
+
+inception_test1.png
+
+Model	Inception
+Learning rate	5e-04
+Epochs	20 or 30 
+Batch size	32
+Dropout	0.4
+Image size	224×224
+score: 0.972664
+
+---
+
+inception_test2.png
+
+Model	Inception
+Learning rate	1e-03
+Epochs	25
+Batch size	32
+Dropout	0.4
+Image size	224×224
+score: 0.963806
+
+---
+Model	U-Net
+Learning rate	1e-03
+Epochs	5
+Batch size	32
+Dropout	0.4
+Image size	224×224

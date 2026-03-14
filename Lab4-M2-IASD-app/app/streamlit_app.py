@@ -84,14 +84,14 @@ with st.sidebar:
 
 def call_train(payload: dict) -> dict:
     """POST /train and return the JSON response or raise on error."""
-    resp = requests.post(f"{API_URL}/train", json=payload, timeout=3600)
+    resp = requests.post(f"{API_URL}/train", json=payload, timeout=36000)
     resp.raise_for_status()
     return resp.json()
 
 
 def call_predict(payload: dict) -> dict:
     """POST /predict and return the JSON response or raise on error."""
-    resp = requests.post(f"{API_URL}/predict", json=payload, timeout=300)
+    resp = requests.post(f"{API_URL}/predict", json=payload, timeout=3000)
     resp.raise_for_status()
     return resp.json()
 
